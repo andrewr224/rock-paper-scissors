@@ -1,0 +1,72 @@
+:root {
+    --main-color: #20B2AA;
+}
+
+body{
+    margin: 0px;
+    padding: 0xp;
+    background: url(assets/cover.jpeg) center top;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+header{
+    background-color: var(--main-color);
+    margin-top: -3rem;
+    padding-top: 3rem;
+    padding-bottom: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+button{
+    padding: 1.5rem;
+    margin: 1rem;
+    background-color: var(--main-color);
+    border: .2rem solid var(--main-color);
+    color: white;
+    font-size: 2rem;
+}
+
+button:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.5);
+    transform: scale(1.1);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 4rem;
+    background: rgba(0,0,0,.5);
+    box-shadow: 0 0 2rem rgba(0,0,0,.5);
+}
+
+.hidden{
+    display: none;
+}
+
+.info{
+    margin-top: 6rem;
+}
+
+.score{
+    font-weight: bold;
+}
